@@ -1,5 +1,4 @@
-# covid19-simulation
-COVID-19 Simulation Environment (Probability, Randomness, Visualisation and the SIR Model) 
+# COVID-19 Simulation Environment (Probability, Randomness, Visualisation and the SIR Model) 
 
 A python application which simulates a pandemic by using real demographics (of India) and assumed probabilities based on health data to track infections. With built-in "filters" it is able to show how the SIR curves flatten if safety measures are applied (masks, gloves, lockdowns). It outputs two visualizations:
 
@@ -34,7 +33,7 @@ Setting these to `1` reduces the probability of infection and fatalities while i
 
 The application builds a "world" of a given size and populates it with objects (people). The density is adjustable by users to mimic a particular location. Every person is given health characteristics according to the weighted demographics of India. 0.75% of the people carry the infection at time = 0
 
-The simulation runs for a number of "days", wherein every day each person moves out of their home location, randomly travels within a radius and comes back at the end of the day. Wherever infected people go they leave behind spots of infection (an object, in the air, etc.). The distance and randomness of movement is controlled by their age and health attributes. For example, an infant doesn't travel, a teen travels a bit more, a middle-aged person travels a lot and the elderly travel a lot lesser. An immuno-compromised old person is even more restricted.
+The simulation runs for a number of "days", wherein every day each person moves out of their home location, randomly travels within a radius and comes back at the end of the day. Wherever infected people go they leave behind spots of infection (an object, in the air, etc.) which vanish in half a day. The distance and randomness of movement is controlled by their age and health attributes. For example, an infant doesn't travel, a teen travels a bit more, a middle-aged person travels a lot and the elderly travel a lot lesser. An immuno-compromised old person is even more restricted.
 
 The interaction of the people with each other and the infected spots, weighted by their risk factors confirms whether they get the disease or not. If they do, we keep them infected for the standard 14 days multiplied by various health probabilities. Similarly we decide if some one dies or not depending on a random severity of the infection w.r.t to risk factors. 
 
