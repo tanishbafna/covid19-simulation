@@ -5,6 +5,8 @@ A python application which simulates a pandemic by using real demographics (of I
 1. "People" moving around in a "world" (color coded according to whether they are infected, dead or susceptible)
 2. SIR graph showing real-time rates 
 
+* View a [demo](https://youtu.be/Htg_9UphC6Q) submitted to CS50 *
+
 ## Factors and Probability 
 
 The simulation calculates recovery and infection using the following factors:
