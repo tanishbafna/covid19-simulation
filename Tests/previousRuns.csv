@@ -1,0 +1,9 @@
+Days,World,Population,Density (sq. km),Total Infections,Active Infections,Dead,Minimum Reached In,Mask,Gloves,Lockdown
+100,200,500,12500.0,497,0,31,63 days,False,False,False
+100,200,500,12500.0,495,0,37,59 days,True,False,False
+100,200,500,12500.0,485,0,33,68 days,False,True,False
+100,200,500,12500.0,98,0,7,86 days,False,False,True
+100,200,500,12500.0,414,0,33,98 days,True,True,False
+100,200,500,12500.0,49,0,3,66 days,False,True,True
+100,200,500,12500.0,92,11,3,100 days,True,False,True
+100,200,500,12500.0,67,1,6,100 days,True,True,True
